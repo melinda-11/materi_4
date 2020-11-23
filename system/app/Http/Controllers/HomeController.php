@@ -5,8 +5,9 @@ class HomeController extends Controller{
 	function showBeranda(){
 		return view('beranda');
 	}
-	function showKategory(){
-		return view('kategory');
+	function showKategori(){
+		return view('kategori');
+	
 	}
 	function showProduk(){
 		return view('produk');
@@ -25,6 +26,9 @@ class HomeController extends Controller{
 	}
 	function showTemplate(){
 		return view('template.base');
+	}
+	function showregister(){
+		return view('register');
 	}
 }
 
